@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #000300;
+}
+.custom-hover-shadow:hover {
+  filter: drop-shadow(10px 7px 2px rgb(6, 229, 6));
+  color: white; 
+}
+.p-shadow {
+  filter: drop-shadow(2px 2px 7px rgb(6, 229, 6));
+}
+.button-shadow {
+  filter: drop-shadow(2px 2px 20px rgb(13, 13, 13));
+}
+
+
+.hover-styles:hover {
+  background-color: #d1d5db; 
+  border-radius: 0.5rem;
+  transform: scale(1.25);
+  border: 3px solid #00df9a;
+}
